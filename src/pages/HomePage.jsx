@@ -81,7 +81,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── O PROBLEMA ── */}
-      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7">
+      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7 text-center">
         O Problema
       </h2>
 
@@ -102,7 +102,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── A VIRADA ── */}
-      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7">
+      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7 text-center">
         A Virada
       </h2>
 
@@ -115,7 +115,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── O QUE VOCÊ VAI RECEBER ── */}
-      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-8">
+      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-8 text-center">
         O Que Você Vai Receber
       </h2>
 
@@ -159,7 +159,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── O QUE VOCÊ SAI COM ISSO ── */}
-      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-8">
+      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-8 text-center">
         O Que Você Sai Com Isso
       </h2>
 
@@ -181,26 +181,10 @@ export default function HomePage() {
         ))}
       </ul>
 
-      {/* CTA MID-PAGE */}
-      <div className="my-12 border border-ink-300 p-7 text-center">
-        <p className="font-body text-[17px] font-semibold text-ink-800 mb-5">
-          R$ 49 — acesso imediato
-        </p>
-        <a
-          href={BUY_URL}
-          className="inline-flex w-full justify-center sm:w-auto items-center gap-2 bg-green-600 border border-green-600 px-8 py-4 text-[13px] font-sans font-medium uppercase tracking-[0.12em] text-white hover:bg-green-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink-900 focus-visible:ring-offset-2"
-        >
-          Compre Aqui
-          <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg>
-        </a>
-      </div>
-
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── PARA QUEM É ── */}
-      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7">
+      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7 text-center">
         Para Quem É
       </h2>
 
@@ -224,7 +208,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── O QUE MUDA ── */}
-      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7">
+      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7 text-center">
         O Que Muda
       </h2>
 
@@ -252,7 +236,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── TUDO QUE VOCÊ VAI RECEBER + PRICING BOX ── */}
-      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-8">
+      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-8 text-center">
         Tudo Que Você Vai Receber
       </h2>
 
@@ -301,7 +285,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── POR QUE R$ 49? ── */}
-      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7">
+      <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7 text-center">
         Por que R$ 49?
       </h2>
 
