@@ -2,7 +2,7 @@
  * Meta Conversions API — server-side pixel
  *
  * POST /api/pixel
- * Body: { event_name, event_id, event_source_url }
+ * Body: { event_name, event_id, event_source_url, fbp, fbc, custom_data }
  *
  * Recebe o evento do browser, enriquece com IP + user-agent
  * e repassa ao Meta CAPI. O mesmo event_id é usado no pixel
@@ -22,7 +22,14 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: 'CAPI token not configured' })
   }
 
-  const { event_name = 'PageView', event_id, event_source_url } = req.body ?? {}
+  const {
+    event_name = 'PageView',
+    event_id,
+    event_source_url,
+    fbp,
+    fbc,
+    custom_data,
+  } = req.body ?? {}
 
   // Dados do cliente disponíveis no servidor — melhora o match rate
   const clientIp =
@@ -43,7 +50,10 @@ export default async function handler(req, res) {
         user_data: {
           ...(clientIp && { client_ip_address: clientIp }),
           ...(clientUserAgent && { client_user_agent: clientUserAgent }),
+          ...(fbp && { fbp }),
+          ...(fbc && { fbc }),
         },
+        ...(custom_data && { custom_data }),
       },
     ],
   }

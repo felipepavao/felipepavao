@@ -7,6 +7,79 @@
  */
 
 const BUY_URL = '#comprar' // trocar pela URL real da plataforma
+const PRICE_VALUE = 47
+
+function createMetaEventId() {
+  return typeof crypto !== 'undefined' && crypto.randomUUID
+    ? crypto.randomUUID()
+    : Math.random().toString(36).slice(2) + Date.now().toString(36)
+}
+
+function getMetaCookie(name) {
+  if (typeof document === 'undefined') return null
+
+  const match = document.cookie.match(new RegExp(`(^| )${name}=([^;]+)`))
+  return match ? decodeURIComponent(match[2]) : null
+}
+
+function setMetaCookie(name, value) {
+  if (typeof document === 'undefined') return
+
+  document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=7776000; SameSite=Lax`
+}
+
+function getOrCreateFbp() {
+  const existingFbp = getMetaCookie('_fbp')
+  if (existingFbp) return existingFbp
+
+  const fbp = `fb.1.${Date.now()}.${Math.floor(Math.random() * 1000000000)}`
+  setMetaCookie('_fbp', fbp)
+  return fbp
+}
+
+function getFbc() {
+  if (typeof window === 'undefined') return null
+
+  const existingFbc = getMetaCookie('_fbc')
+  if (existingFbc) return existingFbc
+
+  const fbclid = new URLSearchParams(window.location.search).get('fbclid')
+  if (!fbclid) return null
+
+  const fbc = `fb.1.${Date.now()}.${fbclid}`
+  setMetaCookie('_fbc', fbc)
+  return fbc
+}
+
+function trackInitiateCheckout() {
+  if (typeof window === 'undefined') return
+
+  const eventId = createMetaEventId()
+  const customData = {
+    value: PRICE_VALUE,
+    currency: 'BRL',
+    content_name: 'Oferta Base',
+    content_type: 'product',
+  }
+
+  if (window.fbq) {
+    window.fbq('track', 'InitiateCheckout', customData, { eventID: eventId })
+  }
+
+  fetch('/api/pixel', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    keepalive: true,
+    body: JSON.stringify({
+      event_name: 'InitiateCheckout',
+      event_id: eventId,
+      event_source_url: window.location.href,
+      fbp: getOrCreateFbp(),
+      fbc: getFbc(),
+      custom_data: customData,
+    }),
+  }).catch(() => {})
+}
 
 export default function HomePage() {
   return (
@@ -262,6 +335,7 @@ export default function HomePage() {
 
           <a
             href={BUY_URL}
+            onClick={trackInitiateCheckout}
             className="inline-flex w-full justify-center sm:w-auto items-center gap-2 bg-green-500 border border-green-500 px-10 py-4 text-[13px] font-sans font-semibold uppercase tracking-[0.14em] text-white hover:bg-green-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink-50 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-900"
           >
             Compre e tenha acesso imediato
@@ -301,6 +375,7 @@ export default function HomePage() {
       <div className="mt-10">
         <a
           href={BUY_URL}
+          onClick={trackInitiateCheckout}
           className="inline-flex w-full justify-center sm:w-auto items-center gap-2 bg-green-600 border border-green-600 px-8 py-4 text-[13px] font-sans font-medium uppercase tracking-[0.12em] text-white hover:bg-green-700 transition-colors"
         >
           Compre Aqui
@@ -319,7 +394,7 @@ export default function HomePage() {
           final: a Oferta Base é a minha solução para que você filtre clientes de
           curiosos. Um combo de GPTs que define sua Oferta Base em IA, cria as ferramentas que você vai entregar para seus clientes, escreve a campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa apenas
           R$ 47. Se não gostar, devolvo tudo e você fica com o material.{' '}
-          <a href={BUY_URL} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
+          <a href={BUY_URL} onClick={trackInitiateCheckout} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
           </a>
         </p>

@@ -17,10 +17,45 @@
 
     <!-- Meta Pixel — client-side + CAPI server-side -->
     <script>
+      function getMetaCookie(name) {
+        var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        return match ? decodeURIComponent(match[2]) : null;
+      }
+
+      function setMetaCookie(name, value) {
+        document.cookie = name + '=' + encodeURIComponent(value) + '; path=/; max-age=7776000; SameSite=Lax';
+      }
+
+      function getOrCreateFbp() {
+        var existingFbp = getMetaCookie('_fbp');
+        if (existingFbp) return existingFbp;
+
+        var fbp = 'fb.1.' + Date.now() + '.' + Math.floor(Math.random() * 1000000000);
+        setMetaCookie('_fbp', fbp);
+        return fbp;
+      }
+
+      function getFbc() {
+        var existingFbc = getMetaCookie('_fbc');
+        if (existingFbc) return existingFbc;
+
+        var fbclid = new URLSearchParams(window.location.search).get('fbclid');
+        if (!fbclid) return null;
+
+        // Formato recomendado pelo Meta: fb.1.<timestamp_ms>.<fbclid>
+        var fbc = 'fb.1.' + Date.now() + '.' + fbclid;
+        setMetaCookie('_fbc', fbc);
+        return fbc;
+      }
+
+      function createMetaEventId() {
+        return (typeof crypto !== 'undefined' && crypto.randomUUID)
+          ? crypto.randomUUID()
+          : Math.random().toString(36).slice(2) + Date.now().toString(36);
+      }
+
       // Gera event_id único compartilhado entre browser e servidor (deduplicacao)
-      window.__metaEventId = (typeof crypto !== 'undefined' && crypto.randomUUID)
-        ? crypto.randomUUID()
-        : Math.random().toString(36).slice(2) + Date.now().toString(36);
+      window.__metaEventId = createMetaEventId();
 
       // Browser pixel
       !function(f,b,e,v,n,t,s)
@@ -42,16 +77,18 @@
           event_name: 'PageView',
           event_id: window.__metaEventId,
           event_source_url: window.location.href,
+          fbp: getOrCreateFbp(),
+          fbc: getFbc(),
         }),
       }).catch(function() {}); // falha silenciosa
     </script>
+    <!-- End Meta Pixel -->
+  </head>
+  <body class="min-h-screen bg-white text-ink-900 antialiased">
     <noscript>
       <img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=641093908868814&ev=PageView&noscript=1" />
     </noscript>
-    <!-- End Meta Pixel -->
-  </head>
-  <body class="min-h-screen bg-white text-ink-900 antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
