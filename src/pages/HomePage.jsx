@@ -37,8 +37,7 @@ export default function HomePage() {
           Eu chamo isso de <strong className="text-ink-900">Oferta Base.</strong>
         </p>
         <p>
-          Quero te ajudar a criar a sua Oferta Base com a minha solução: um combo com 3 GPTs que 
-          constrói sua oferta, escreve uma campanha de vendas e prepara esses novos clientes para os próximos passos futuros.
+          Quero te ajudar a criar a sua Oferta Base: uma oferta simples baseada em IA, onde seu cliente tem uma vitória rápida com uma ferramenta real, não um PDF que ninguém abre ou um curso que fica pela metade.
         </p>
         <p>Em menos de 30 minutos.</p>
       </div>
@@ -115,7 +114,7 @@ export default function HomePage() {
 
       <ul className="space-y-6 mb-10">
         {[
-          ['GPT #1 — Criador de Oferta Base', 'você descreve o que já vende, ele define preço, promessa e posicionamento;'],
+          ['GPT #1 — Estrategista de Oferta Base', 'você descreve sua expertise, ele define a estrutura da oferta, quantos GPTs criar e qual vitória rápida entregar para seu cliente;'],
           ['GPT #2 — Redator de E-mails / Posts', 'gera emails e posts persuasivos que engajam e vendem;'],
           ['GPT #3 — Carta de Vendas', 'entrega a página de vendas sem precisar de designer ou copywriter — pronto pra colocar no Notion ou Google Docs;'],
           ['Playbook de Implementação', 'como conectar tudo à sua operação em menos de 30 minutos.'],
@@ -139,6 +138,7 @@ export default function HomePage() {
             'Um curso longo com módulos que ficam pela metade;',
             'Um funil caro que depende de anúncio para funcionar;',
             'Nem template genérico que serve para qualquer nicho.',
+            'Uma oferta em PDF ou planilha que o cliente baixa e esquece.',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.8] text-ink-700">
               <span className="mt-1 shrink-0 font-sans text-sm font-semibold text-ink-400">✕</span>
@@ -157,7 +157,7 @@ export default function HomePage() {
 
       <ul className="space-y-6">
         {[
-          ['Oferta definida em uma sessão', 'preço, promessa, posicionamento. O GPT faz as perguntas, você responde, ele entrega;'],
+          ['Oferta definida em uma sessão', 'estrutura, GPTs necessários e vitória rápida do seu cliente. O GPT faz as perguntas estratégicas, você responde, ele entrega o plano;'],
           ['Sequência de e-mails/posts escrita', 'pronta para publicar;'],
           ['Carta de vendas no ar', 'sem página cara, sem design complexo;'],
           ['Lista segmentada', 'a Oferta Base separa curiosos de compradores;'],
@@ -239,6 +239,7 @@ export default function HomePage() {
             'GPT Redator de E-mails',
             'GPT Carta de Vendas',
             'Playbook de Implementação',
+            'GPT Gerador de GPT — cria o prompt do GPT da sua Oferta Base a partir da estratégia definida no GPT #1.',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.7] text-ink-200">
               <span className="mt-[3px] shrink-0 font-sans font-bold text-brand-400">✓</span>
@@ -315,8 +316,7 @@ export default function HomePage() {
         <p>
           <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
           final: a Oferta Base é a minha solução para que você filtre clientes de
-          curiosos. Um combo de três GPTs e um playbook que constroem sua oferta, escrevem uma campanha de vendas e preparam 
-          esses novos clientes para os próximos passos futuros em menos de 30 minutos. Custa apenas
+          curiosos. Um combo de GPTs que define sua Oferta Base em IA, cria as ferramentas que você vai entregar para seus clientes, escreve a campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa apenas
           R$ 19,90. Se não gostar, devolvo tudo e você fica com o material.{' '}
           <a href={BUY_URL} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
