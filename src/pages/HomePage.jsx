@@ -359,8 +359,7 @@ export default function HomePage() {
 
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
-          Porque comigo você tem grandes resultados antes de investir muito. E claro,
-          isso me ajuda a vender meus produtos de maior ticket.
+          Porque prefiro que você implemente antes de qualquer decisão maior.
         </p>
         <p>
           Quem aplica e vê resultado tende a querer avançar para a consultoria. Quem
