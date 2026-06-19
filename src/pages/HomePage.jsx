@@ -356,17 +356,8 @@ export default function HomePage() {
             realmente importa.
           </p>
           <p>
-            É co-criador do movimento{' '}
-            <a
-              href="https://contracorrente.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors"
-            >
-              Contracorrente
-            </a>{' '}
-            e trabalha com um número intencional de clientes — poucos, bem atendidos,
-            por muito tempo.
+            É co-criador do movimento Contracorrente e trabalha com um número
+            intencional de clientes — poucos, bem atendidos, por muito tempo.
           </p>
         </div>
       </div>
