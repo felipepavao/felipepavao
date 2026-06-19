@@ -15,14 +15,13 @@ export default function HomePage() {
       {/* ── EYEBROW + H1 ── */}
       <header>
         <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.12em] sm:tracking-[0.22em] text-ink-900 border-t border-b border-ink-300 py-3 text-center mb-8">
-          Para Experts, Consultores, Mentores e Creators que já têm audiência
+          Para Experts, Consultores e Mentores
         </p>
 
         <h1 className="font-body text-[28px] sm:text-[42px] font-normal leading-[1.2] text-ink-900 text-center">
           "Em menos de 30 minutos você cria sua Oferta Base e começa a monetizar seus leitores e seguidores ainda hoje."
         </h1>
 
-        {/* Foto + assinatura */}
         <div className="mt-10 flex justify-center">
           <div className="flex flex-col items-center gap-3">
             <img
@@ -42,15 +41,18 @@ export default function HomePage() {
       {/* ── ABERTURA ── */}
       <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800">
         <p>
-          Você já provou que sabe chamar atenção. O que falta é uma oferta simples
-          que separe quem só lê de quem está pronto para pagar.
+          Você já provou que sabe chamar atenção. Só te falta uma oferta simples pra
+          separar os curiosos da internet de quem está pronto pra ser cliente.
         </p>
         <p>
-          A <strong className="text-ink-900">Oferta Base</strong> é um combo de três
-          GPTs e um playbook que fazem exatamente isso: constroem sua oferta, escrevem
-          os e-mails e preparam tudo para vender, sem anúncios, sem equipe, sem
-          depender da próxima publicação.
+          Eu chamo isso de <strong className="text-ink-900">Oferta Base.</strong>
         </p>
+        <p>
+          Quero te ajudar a criar a sua através de um combo com 3 GPTs e um playbook
+          que constroem sua oferta, escrevem os e-mails / posts e preparam tudo para
+          começar a separar curiosos de clientes.
+        </p>
+        <p>Tudo isso em menos de 30 minutos.</p>
       </div>
 
       <hr className="my-8 sm:my-12 border-ink-200" />
@@ -62,10 +64,10 @@ export default function HomePage() {
         </p>
         <ul className="space-y-3 pl-1">
           {[
-            'Publica conteúdo toda semana, mas as vendas não acompanham.',
-            'Sua caixa de entrada vive cheia de curiosos pedindo dica gratuita.',
+            'Publica conteúdo com consistência, mas as vendas não acompanham.',
+            'Sua inbox vive cheia de curiosos pedindo dica gratuita.',
             'Já tentou lives e pequenos lançamentos, atraiu likes e ficou sem fôlego para atender quem realmente importa.',
-            'Quer monetizar sua lista sem criar um novo produto do zero.',
+            'Quer monetizar sua galera sem criar um novo produto do zero.',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3 font-body text-[17px] leading-[1.8] text-ink-800">
               <span className="mt-[11px] h-1 w-3 shrink-0 bg-ink-600/70" />
@@ -101,15 +103,15 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
-      {/* ── A VIRADA ── */}
+      {/* ── DE ONDE SURGIU ── */}
       <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7 text-center">
-        A Virada
+        De Onde Surgiu
       </h2>
 
       <blockquote className="border-l-2 border-brand-600 pl-5 font-body text-[17px] font-semibold leading-[1.85] text-ink-900">
-        Um cliente lançou a Oferta Base para a lista que já tinha. Sem anúncios, sem
-        novo produto. Passou a fechar mentorias de R$ 7.000 com quem já o acompanhava
-        há meses sem comprar nada.
+        Ajudei um cliente a lançar uma Oferta Base para a lista que já tinha. Sem
+        anúncios, sem novo produto. Ela foi o pontapé pra fechar mentorias de 7k com
+        quem já o acompanhava há meses sem comprar nada.
       </blockquote>
 
       <hr className="my-8 sm:my-12 border-ink-200" />
@@ -120,20 +122,20 @@ export default function HomePage() {
       </h2>
 
       <p className="font-body text-[17px] leading-[1.9] text-ink-800 mb-6">
-        <strong className="text-ink-900">Oferta Base — Combo de GPTs + Playbook</strong>
+        Neste combo você recebe:
       </p>
 
       <ul className="space-y-6 mb-10">
         {[
-          ['GPT #1 — Criador de Oferta Base', 'você descreve o que já vende, ele define preço, promessa e posicionamento.'],
-          ['GPT #2 — Redator de E-mails', 'gera a sequência de boas-vindas, oferta e follow-up pronta para copiar.'],
-          ['GPT #3 — Carta de Vendas', 'entrega a página de vendas sem precisar de designer ou copywriter.'],
-          ['Playbook de Implementação', 'como conectar tudo à sua newsletter em menos de 30 minutos.'],
+          ['GPT #1 — Criador de Oferta Base', 'você descreve o que já vende, ele define preço, promessa e posicionamento;'],
+          ['GPT #2 — Redator de E-mails / Posts', 'gera emails e posts persuasivos que engajam e vendem;'],
+          ['GPT #3 — Carta de Vendas', 'entrega a página de vendas sem precisar de designer ou copywriter — pronto pra colocar no Notion ou Google Docs;'],
+          ['Playbook de Implementação', 'como conectar tudo à sua operação em menos de 30 minutos.'],
         ].map(([title, desc]) => (
           <li key={title} className="flex items-start gap-3">
             <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
             <span className="font-body text-[17px] leading-[1.85] text-ink-800">
-              <strong className="text-ink-900">{title}</strong> — {desc}
+              <strong className="text-ink-900">{title}:</strong> {desc}
             </span>
           </li>
         ))}
@@ -141,12 +143,14 @@ export default function HomePage() {
 
       {/* Não é */}
       <div className="rounded-lg border border-ink-200 bg-ink-50 p-6 md:p-8 space-y-4">
-        <p className="font-body text-[15px] font-semibold text-ink-900">Não é:</p>
+        <p className="font-body text-[15px] font-semibold text-ink-900">
+          E que fique bem claro, isso não é:
+        </p>
         <ul className="space-y-3">
           {[
-            'Curso longo com módulos que ficam pela metade',
-            'Funil caro que depende de anúncio para funcionar',
-            'Template genérico que serve para qualquer nicho',
+            'Um curso longo com módulos que ficam pela metade;',
+            'Um funil caro que depende de anúncio para funcionar;',
+            'Nem template genérico que serve para qualquer nicho.',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3 font-body text-[17px] leading-[1.8] text-ink-700">
               <span className="mt-1 shrink-0 font-sans text-sm font-semibold text-ink-400">✕</span>
@@ -158,24 +162,24 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
-      {/* ── O QUE VOCÊ SAI COM ISSO ── */}
+      {/* ── MEU COMBO VAI TE AJUDAR A ── */}
       <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-8 text-center">
-        O Que Você Sai Com Isso
+        Meu Combo Vai Te Ajudar a:
       </h2>
 
       <ul className="space-y-6">
         {[
-          ['Oferta definida em uma sessão', 'preço, promessa, posicionamento. O GPT faz as perguntas, você responde, ele entrega.'],
-          ['Sequência de e-mails escrita', 'pronta para ativar na sua plataforma de newsletter.'],
-          ['Carta de vendas no ar', 'sem página cara, sem design complexo.'],
-          ['Lista segmentada', 'a automação separa curiosos de compradores no primeiro clique.'],
-          ['Tempo de volta', 'menos energia nutrindo seguidores, mais atenção para quem já pagou.'],
+          ['Oferta definida em uma sessão', 'preço, promessa, posicionamento. O GPT faz as perguntas, você responde, ele entrega;'],
+          ['Sequência de e-mails/posts escrita', 'pronta para publicar;'],
+          ['Carta de vendas no ar', 'sem página cara, sem design complexo;'],
+          ['Lista segmentada', 'a Oferta Base separa curiosos de compradores;'],
+          ['Tempo de volta', 'menos energia nutrindo seguidores, mais atenção para quem já pagou;'],
           ['Escada aberta', 'quem compra a Oferta Base chega nas suas ofertas maiores com menos fricção.'],
         ].map(([title, desc]) => (
           <li key={title} className="flex items-start gap-3">
             <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
             <span className="font-body text-[17px] leading-[1.85] text-ink-800">
-              <strong className="text-ink-900">{title}</strong> — {desc}
+              <strong className="text-ink-900">{title}:</strong> {desc}
             </span>
           </li>
         ))}
@@ -190,9 +194,9 @@ export default function HomePage() {
 
       <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800">
         <p>
-          Experts, consultores, mentores e creators que já têm audiência, já têm
-          resultados para mostrar, mas ainda dependem de um novo lançamento a cada
-          mês para gerar caixa.
+          Experts, consultores e mentores que já têm audiência, já têm resultados
+          para mostrar, mas ainda dependem de um novo lançamento a cada mês para
+          gerar caixa.
         </p>
         <p>
           Não é para quem está construindo audiência do zero ou procura mais uma
@@ -218,15 +222,15 @@ export default function HomePage() {
         </p>
         <ul className="space-y-4 pl-1">
           {[
-            ['Sua lista começa a trabalhar por você', 'cada novo leitor entra numa sequência que apresenta a oferta sem precisar que você esteja online.'],
-            ['Você identifica compradores reais', 'quem clica e compra sinaliza que está pronto para subir na escada.'],
-            ['Você para de criar conteúdo para vender', 'o conteúdo continua, mas a venda acontece pelo sistema, não pelo post do dia.'],
-            ['Suas ofertas maiores fecham mais fácil', 'quem já pagou R$ 49 tem menos resistência para pagar R$ 2.000.'],
+            ['Sua lista começa a trabalhar por você', 'cada novo leitor entra numa sequência que apresenta a oferta sem precisar que você esteja online;'],
+            ['Você identifica compradores reais', 'quem clica e compra sinaliza que está pronto para subir na escada;'],
+            ['Você para de criar conteúdo para vender', 'o conteúdo continua, mas a venda acontece pelo sistema, não pelo post do dia;'],
+            ['Suas ofertas maiores fecham mais fácil', 'quem já pagou alguma coisa tem menos resistência para pagar tickets como 1k, 2k e até 10k.'],
           ].map(([title, desc]) => (
             <li key={title} className="flex items-start gap-3 font-body text-[17px] leading-[1.85] text-ink-800">
               <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
               <span>
-                <strong className="text-ink-900">{title}</strong> — {desc}
+                <strong className="text-ink-900">{title}:</strong> {desc}
               </span>
             </li>
           ))}
@@ -256,11 +260,11 @@ export default function HomePage() {
         </ul>
 
         <div className="border-t border-ink-700/60 pt-8 text-center">
-          <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-ink-500 mb-3">
-            Tudo isso por
+          <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-ink-500 mb-1">
+            Preço de estreia
           </p>
           <p className="font-body text-[76px] md:text-[92px] font-bold leading-none text-ink-50">
-            R$ 49
+            R$ 97
           </p>
           <p className="font-sans text-[10px] uppercase tracking-[0.18em] text-ink-500 mt-3 mb-8">
             Acesso imediato · Tudo digital
@@ -270,7 +274,7 @@ export default function HomePage() {
             href={BUY_URL}
             className="inline-flex w-full justify-center sm:w-auto items-center gap-2 bg-green-500 border border-green-500 px-10 py-4 text-[13px] font-sans font-semibold uppercase tracking-[0.14em] text-white hover:bg-green-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink-50 focus-visible:ring-offset-2 focus-visible:ring-offset-ink-900"
           >
-            Compre Aqui
+            Compre e tenha acesso imediato
             <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M5 12h14M13 5l7 7-7 7" />
             </svg>
@@ -284,19 +288,22 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
-      {/* ── POR QUE R$ 49? ── */}
+      {/* ── POR QUE APENAS R$ 97? ── */}
       <h2 className="font-body text-xl md:text-2xl font-bold leading-tight text-ink-900 mb-7 text-center">
-        Por que R$ 49?
+        Por que apenas R$ 97?
       </h2>
 
       <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800">
-        <p>Porque prefiro que você implemente antes de qualquer decisão maior.</p>
+        <p>
+          Porque comigo você tem grandes resultados antes de investir muito. E claro,
+          isso me ajuda a vender meus produtos de maior ticket.
+        </p>
         <p>
           Quem aplica e vê resultado tende a querer avançar para a consultoria. Quem
           não aplica, tudo bem também.
         </p>
         <p>
-          R$ 49 é o preço justo para demonstrar o método sem pedir que você aposte
+          R$ 97 é o preço justo para demonstrar o método sem pedir que você aposte
           alto antes de ver funcionar.
         </p>
       </div>
@@ -306,7 +313,7 @@ export default function HomePage() {
           href={BUY_URL}
           className="inline-flex w-full justify-center sm:w-auto items-center gap-2 bg-green-600 border border-green-600 px-8 py-4 text-[13px] font-sans font-medium uppercase tracking-[0.12em] text-white hover:bg-green-700 transition-colors"
         >
-          Compre Aqui — R$ 49
+          Compre Aqui
           <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <path d="M5 12h14M13 5l7 7-7 7" />
           </svg>
@@ -319,10 +326,10 @@ export default function HomePage() {
       <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800 rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8">
         <p>
           <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
-          final: a Oferta Base é um combo de três GPTs e um playbook que criam sua
-          oferta, escrevem os e-mails e montam a carta de vendas em menos de 30
-          minutos. Custa R$ 49. Se não gostar, devolvo tudo e você fica com o
-          material.{' '}
+          final: a Oferta Base é a minha solução para que você filtre clientes de
+          curiosos. Um combo de três GPTs e um playbook que criam sua oferta, escrevem
+          os e-mails e montam a carta de vendas em menos de 30 minutos. Custa apenas
+          R$ 97. Se não gostar, devolvo tudo e você fica com o material.{' '}
           <a href={BUY_URL} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
           </a>
