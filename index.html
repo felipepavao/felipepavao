@@ -15,8 +15,14 @@
 
     <title>Felipe Pavão</title>
 
-    <!-- Meta Pixel — client-side -->
+    <!-- Meta Pixel — client-side + CAPI server-side -->
     <script>
+      // Gera event_id único compartilhado entre browser e servidor (deduplicacao)
+      window.__metaEventId = (typeof crypto !== 'undefined' && crypto.randomUUID)
+        ? crypto.randomUUID()
+        : Math.random().toString(36).slice(2) + Date.now().toString(36);
+
+      // Browser pixel
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -26,7 +32,18 @@
       s.parentNode.insertBefore(t,s)}(window,document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', '641093908868814');
-      fbq('track', 'PageView');
+      fbq('track', 'PageView', {}, { eventID: window.__metaEventId });
+
+      // CAPI server-side — mesmo event_id para deduplicacao
+      fetch('/api/pixel', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          event_name: 'PageView',
+          event_id: window.__metaEventId,
+          event_source_url: window.location.href,
+        }),
+      }).catch(function() {}); // falha silenciosa
     </script>
     <noscript>
       <img height="1" width="1" style="display:none"

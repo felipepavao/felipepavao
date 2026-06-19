@@ -22,18 +22,7 @@ export default function HomePage() {
           "Em menos de 30 minutos você cria sua Oferta Base e começa a monetizar seus leitores e seguidores ainda hoje."
         </h1>
 
-        <div className="mt-10 flex justify-center">
-          <div className="flex flex-col items-center gap-3">
-            <img
-              src="/felipe-pavao.webp"
-              alt="Felipe Pavão"
-              className="h-20 w-20 rounded-full border border-ink-200 object-cover object-top"
-            />
-            <span className="font-sans text-[10px] uppercase tracking-[0.12em] text-ink-500">
-              Felipe Pavão
-            </span>
-          </div>
-        </div>
+
       </header>
 
       <hr className="my-10 border-ink-200" />
@@ -336,12 +325,50 @@ export default function HomePage() {
         </p>
       </div>
 
-      {/* ── ASSINATURA ── */}
-      <div className="mt-10 pb-8 space-y-1">
-        <p className="font-body italic text-xl text-ink-700">— Felipe Pavão</p>
-        <p className="font-sans text-[10px] uppercase tracking-[0.18em] text-ink-400">
-          Consultor · felipepavao.com
-        </p>
+      {/* ── BIO ── */}
+      <div className="mt-10 pb-8 flex flex-col items-center gap-8 sm:flex-row sm:items-start sm:gap-8">
+        <div className="shrink-0 flex flex-col items-center gap-3">
+          <img
+            src="/felipe-pavao.webp"
+            alt="Felipe Pavão"
+            className="h-24 w-24 rounded-full border border-ink-200 object-cover object-top"
+          />
+          <span className="font-sans text-[10px] uppercase tracking-[0.12em] text-ink-500">
+            Felipe Pavão
+          </span>
+        </div>
+        <div className="space-y-4 font-body text-[15px] leading-[1.85] text-ink-700 text-center sm:text-left">
+          <p>
+            <strong className="text-ink-900">Felipe Pavão</strong> é consultor de
+            negócios especializado em ajudar experts, mentores e consultores a criar
+            receita previsível sem depender de lançamentos mensais ou produção
+            constante de conteúdo.
+          </p>
+          <p>
+            Passou mais de uma década dentro do mercado digital — de agência a
+            copywriting, de lançamentos a mentoria — até desenvolver um método próprio
+            centrado no que chama de CORE: a atividade que mais energiza, gera os
+            melhores resultados para clientes e permite cobrar os maiores preços.
+          </p>
+          <p>
+            Hoje atua nos bastidores de negócios de experts e empresas, ajudando a
+            simplificar operações, aumentar margem e liberar o dono para fazer o que
+            realmente importa.
+          </p>
+          <p>
+            É co-criador do movimento{' '}
+            <a
+              href="https://contracorrente.com.br"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors"
+            >
+              Contracorrente
+            </a>{' '}
+            e trabalha com um número intencional de clientes — poucos, bem atendidos,
+            por muito tempo.
+          </p>
+        </div>
       </div>
 
     </main>
