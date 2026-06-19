@@ -117,6 +117,7 @@ export default function HomePage() {
           ['GPT #1 — Estrategista de Oferta Base', 'você descreve sua expertise, ele define a estrutura da oferta, quantos GPTs criar e qual vitória rápida entregar para seu cliente;'],
           ['GPT #2 — Redator de E-mails / Posts', 'gera emails e posts persuasivos que engajam e vendem;'],
           ['GPT #3 — Carta de Vendas', 'entrega a página de vendas sem precisar de designer ou copywriter — pronto pra colocar no Notion ou Google Docs;'],
+          ['GPT #4 — Gerador de Agentes GPT', 'a partir da estratégia definida no GPT #1, ele cria o prompt do GPT que você vai entregar como Oferta Base para seus clientes;'],
           ['Playbook de Implementação', 'como conectar tudo à sua operação em menos de 30 minutos.'],
         ].map(([title, desc]) => (
           <li key={title} className="flex items-start gap-3">
