@@ -254,7 +254,7 @@ export default function HomePage() {
             Preço de estreia
           </p>
           <p className="font-body text-[76px] md:text-[92px] font-bold leading-none text-ink-50">
-            R$ 19,90
+            R$ 47
           </p>
           <p className="font-sans text-[10px] uppercase tracking-[0.18em] text-ink-500 mt-3 mb-8">
             Acesso imediato · Tudo digital
@@ -278,9 +278,9 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
-      {/* ── POR QUE APENAS R$ 19,90? ── */}
+      {/* ── POR QUE APENAS R$ 47? ── */}
       <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
-        Por que apenas R$ 19,90?
+        Por que apenas R$ 47?
       </h2>
 
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
@@ -293,7 +293,7 @@ export default function HomePage() {
           não aplica, tudo bem também.
         </p>
         <p>
-          R$ 19,90 é o preço justo para demonstrar o método sem pedir que você aposte
+          R$ 47 é o preço justo para demonstrar o método sem pedir que você aposte
           alto antes de ver funcionar.
         </p>
       </div>
@@ -318,7 +318,7 @@ export default function HomePage() {
           <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
           final: a Oferta Base é a minha solução para que você filtre clientes de
           curiosos. Um combo de GPTs que define sua Oferta Base em IA, cria as ferramentas que você vai entregar para seus clientes, escreve a campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa apenas
-          R$ 19,90. Se não gostar, devolvo tudo e você fica com o material.{' '}
+          R$ 47. Se não gostar, devolvo tudo e você fica com o material.{' '}
           <a href={BUY_URL} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
           </a>
