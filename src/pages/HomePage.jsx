@@ -309,11 +309,11 @@ export default function HomePage() {
       <div id="comprar" className="bg-ink-900 p-8 md:p-10">
         <ul className="space-y-3 mb-9">
           {[
-            'GPT Criador de Oferta Base',
-            'GPT Redator de E-mails',
+            'GPT Estrategista de Oferta Base',
+            'GPT Escritor Persuasivo',
             'GPT Carta de Vendas',
+            'GPT Gerador de Agentes GPT',
             'Playbook de Implementação',
-            'GPT Gerador de GPT — cria o prompt do GPT da sua Oferta Base a partir da estratégia definida no GPT #1.',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.7] text-ink-200">
               <span className="mt-[3px] shrink-0 font-sans font-bold text-brand-400">✓</span>
