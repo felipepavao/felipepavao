@@ -30,18 +30,17 @@ export default function HomePage() {
       {/* ── ABERTURA ── */}
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
-          Você já provou que sabe chamar atenção. Só te falta uma oferta simples pra
-          separar os curiosos da internet de quem está pronto pra ser cliente.
+          Você já provou que sabe chamar atenção. Só te falta uma oferta simples que
+          filtra curiosos da internet de quem está pronto pra ser cliente.
         </p>
         <p>
           Eu chamo isso de <strong className="text-ink-900">Oferta Base.</strong>
         </p>
         <p>
-          Quero te ajudar a criar a sua através de um combo com 3 GPTs e um playbook
-          que constroem sua oferta, escrevem os e-mails / posts e preparam tudo para
-          começar a separar curiosos de clientes.
+          Quero te ajudar a criar a sua Oferta Base com a minha solução: um combo com 3 GPTs que 
+          constrói sua oferta, escreve uma campanha de vendas e prepara esses novos clientes para os próximos passos futuros.
         </p>
-        <p>Tudo isso em menos de 30 minutos.</p>
+        <p>Em menos de 30 minutos.</p>
       </div>
 
       <hr className="my-8 sm:my-12 border-ink-200" />
@@ -316,8 +315,8 @@ export default function HomePage() {
         <p>
           <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
           final: a Oferta Base é a minha solução para que você filtre clientes de
-          curiosos. Um combo de três GPTs e um playbook que criam sua oferta, escrevem
-          os e-mails e montam a carta de vendas em menos de 30 minutos. Custa apenas
+          curiosos. Um combo de três GPTs e um playbook que constroem sua oferta, escrevem uma campanha de vendas e preparam 
+          esses novos clientes para os próximos passos futuros em menos de 30 minutos. Custa apenas
           R$ 19,90. Se não gostar, devolvo tudo e você fica com o material.{' '}
           <a href={BUY_URL} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
