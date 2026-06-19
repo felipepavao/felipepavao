@@ -440,11 +440,11 @@ export default function HomePage() {
       <footer className="border-t border-ink-200 pt-8 text-center font-sans text-[11px] leading-relaxed tracking-[0.08em] text-ink-400">
         <p>© 2026 Felipe Pavão — Todos os Direitos Reservados</p>
         <p className="mt-2 flex items-center justify-center gap-2">
-          <a href="#" className="hover:text-ink-700 transition-colors">
+          <a href="/politica-de-privacidade" className="hover:text-ink-700 transition-colors">
             Política de Privacidade
           </a>
           <span>·</span>
-          <a href="#" className="hover:text-ink-700 transition-colors">
+          <a href="/termos-de-uso" className="hover:text-ink-700 transition-colors">
             Termos de Uso
           </a>
         </p>
