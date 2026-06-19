@@ -28,7 +28,7 @@ export default function HomePage() {
       <hr className="my-10 border-ink-200" />
 
       {/* ── ABERTURA ── */}
-      <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800">
+      <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
           Você já provou que sabe chamar atenção. Só te falta uma oferta simples pra
           separar os curiosos da internet de quem está pronto pra ser cliente.
@@ -48,7 +48,7 @@ export default function HomePage() {
 
       {/* ── ISSO É PARA VOCÊ SE ── */}
       <div className="border-l-4 border-ink-800 bg-ink-50 pl-6 pr-5 py-5 space-y-4">
-        <p className="font-body text-[17px] leading-[1.9] text-ink-800">
+        <p className="font-body text-[18px] leading-[1.9] text-ink-800">
           Isso é para você se:
         </p>
         <ul className="space-y-3 pl-1">
@@ -58,13 +58,13 @@ export default function HomePage() {
             'Já tentou lives e pequenos lançamentos, atraiu likes e ficou sem fôlego para atender quem realmente importa.',
             'Quer monetizar sua galera sem criar um novo produto do zero.',
           ].map((item) => (
-            <li key={item} className="flex items-start gap-3 font-body text-[17px] leading-[1.8] text-ink-800">
+            <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.8] text-ink-800">
               <span className="mt-[11px] h-1 w-3 shrink-0 bg-ink-600/70" />
               {item}
             </li>
           ))}
         </ul>
-        <p className="font-body text-[17px] leading-[1.9] text-ink-800 pt-2">
+        <p className="font-body text-[18px] leading-[1.9] text-ink-800 pt-2">
           Se esse é você, continue lendo.
         </p>
       </div>
@@ -76,7 +76,7 @@ export default function HomePage() {
         O Problema
       </h2>
 
-      <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800">
+      <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
           Quem chega até mim normalmente já tentou lives, pequenos lançamentos e
           maratonas de conteúdo orgânico.
@@ -97,7 +97,7 @@ export default function HomePage() {
         De Onde Surgiu
       </h2>
 
-      <blockquote className="border-l-2 border-brand-600 pl-5 font-body text-[17px] font-semibold leading-[1.85] text-ink-900">
+      <blockquote className="border-l-2 border-brand-600 pl-5 font-body text-[18px] font-semibold leading-[1.85] text-ink-900">
         Ajudei um cliente a lançar uma Oferta Base para a lista que já tinha. Sem
         anúncios, sem novo produto. Ela foi o pontapé pra fechar mentorias de 7k com
         quem já o acompanhava há meses sem comprar nada.
@@ -110,7 +110,7 @@ export default function HomePage() {
         O Que Você Vai Receber
       </h2>
 
-      <p className="font-body text-[17px] leading-[1.9] text-ink-800 mb-6">
+      <p className="font-body text-[18px] leading-[1.9] text-ink-800 mb-6">
         Neste combo você recebe:
       </p>
 
@@ -123,7 +123,7 @@ export default function HomePage() {
         ].map(([title, desc]) => (
           <li key={title} className="flex items-start gap-3">
             <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
-            <span className="font-body text-[17px] leading-[1.85] text-ink-800">
+            <span className="font-body text-[18px] leading-[1.85] text-ink-800">
               <strong className="text-ink-900">{title}:</strong> {desc}
             </span>
           </li>
@@ -132,7 +132,7 @@ export default function HomePage() {
 
       {/* Não é */}
       <div className="rounded-lg border border-ink-200 bg-ink-50 p-6 md:p-8 space-y-4">
-        <p className="font-body text-[15px] font-semibold text-ink-900">
+        <p className="font-body text-[18px] font-semibold text-ink-900">
           E que fique bem claro, isso não é:
         </p>
         <ul className="space-y-3">
@@ -141,7 +141,7 @@ export default function HomePage() {
             'Um funil caro que depende de anúncio para funcionar;',
             'Nem template genérico que serve para qualquer nicho.',
           ].map((item) => (
-            <li key={item} className="flex items-start gap-3 font-body text-[17px] leading-[1.8] text-ink-700">
+            <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.8] text-ink-700">
               <span className="mt-1 shrink-0 font-sans text-sm font-semibold text-ink-400">✕</span>
               {item}
             </li>
@@ -167,7 +167,7 @@ export default function HomePage() {
         ].map(([title, desc]) => (
           <li key={title} className="flex items-start gap-3">
             <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
-            <span className="font-body text-[17px] leading-[1.85] text-ink-800">
+            <span className="font-body text-[18px] leading-[1.85] text-ink-800">
               <strong className="text-ink-900">{title}:</strong> {desc}
             </span>
           </li>
@@ -181,7 +181,7 @@ export default function HomePage() {
         Para Quem É
       </h2>
 
-      <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800">
+      <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
           Experts, consultores e mentores que já têm audiência, já têm resultados
           para mostrar, mas ainda dependem de um novo lançamento a cada mês para
@@ -206,7 +206,7 @@ export default function HomePage() {
       </h2>
 
       <div className="rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8 space-y-5">
-        <p className="font-body text-[17px] font-semibold leading-[1.9] text-ink-900">
+        <p className="font-body text-[18px] font-semibold leading-[1.9] text-ink-900">
           Quando você implementa a Oferta Base e deixa a automação rodar:
         </p>
         <ul className="space-y-4 pl-1">
@@ -216,7 +216,7 @@ export default function HomePage() {
             ['Você para de criar conteúdo para vender', 'o conteúdo continua, mas a venda acontece pelo sistema, não pelo post do dia;'],
             ['Suas ofertas maiores fecham mais fácil', 'quem já pagou alguma coisa tem menos resistência para pagar tickets como 1k, 2k e até 10k.'],
           ].map(([title, desc]) => (
-            <li key={title} className="flex items-start gap-3 font-body text-[17px] leading-[1.85] text-ink-800">
+            <li key={title} className="flex items-start gap-3 font-body text-[18px] leading-[1.85] text-ink-800">
               <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
               <span>
                 <strong className="text-ink-900">{title}:</strong> {desc}
@@ -241,7 +241,7 @@ export default function HomePage() {
             'GPT Carta de Vendas',
             'Playbook de Implementação',
           ].map((item) => (
-            <li key={item} className="flex items-start gap-3 font-body text-[15px] leading-[1.7] text-ink-200">
+            <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.7] text-ink-200">
               <span className="mt-[3px] shrink-0 font-sans font-bold text-brand-400">✓</span>
               {item}
             </li>
@@ -282,7 +282,7 @@ export default function HomePage() {
         Por que apenas R$ 19,90?
       </h2>
 
-      <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800">
+      <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
           Porque comigo você tem grandes resultados antes de investir muito. E claro,
           isso me ajuda a vender meus produtos de maior ticket.
@@ -312,7 +312,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── P.S. ── */}
-      <div className="space-y-5 font-body text-[17px] leading-[1.9] text-ink-800 rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8">
+      <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800 rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8">
         <p>
           <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
           final: a Oferta Base é a minha solução para que você filtre clientes de
@@ -337,7 +337,7 @@ export default function HomePage() {
             Felipe Pavão
           </span>
         </div>
-        <div className="space-y-4 font-body text-[15px] leading-[1.85] text-ink-700 text-center sm:text-left">
+        <div className="space-y-4 font-body text-[18px] leading-[1.85] text-ink-700 text-center sm:text-left">
           <p>
             <strong className="text-ink-900">Felipe Pavão</strong> é consultor de
             negócios especializado em ajudar experts, mentores e consultores a criar
