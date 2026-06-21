@@ -179,7 +179,7 @@ export default function OfertaBasePesquisaPage() {
             Conta um pouco sobre você
           </h1>
           <p className="mt-5 mx-auto max-w-[520px] font-sans text-[17px] leading-[1.6] text-white/60">
-            3 perguntas rápidas. Suas respostas me ajudam a entender melhor quem está do outro lado.
+            3 perguntas rápidas. Suas respostas me ajudam a melhorar os GPTs e entender como posso te ajudar melhor.
           </p>
         </div>
       </header>
