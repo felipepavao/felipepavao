@@ -88,11 +88,11 @@ export default function HomePage() {
       {/* ── EYEBROW + H1 ── */}
       <header>
         <p className="font-sans text-[13px] font-semibold uppercase tracking-[0.12em] sm:tracking-[0.22em] text-ink-900 border-t border-b border-ink-300 py-3 text-center mb-8">
-          Para Experts, Consultores e Mentores
+          Para quem já tem audiência e quer transformar em $$
         </p>
 
         <h1 className="font-body text-[50px] font-normal leading-[1.2] text-ink-900 text-center">
-          "Em menos de 30 minutos você cria sua Oferta Base e começa a monetizar seus leitores e seguidores ainda hoje."
+          "Em menos de 30 minutos você cria sua Oferta Base e passa a transformar audiência em $$ com GPTs"
         </h1>
 
 
@@ -103,9 +103,7 @@ export default function HomePage() {
       {/* ── ABERTURA ── */}
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
-          Você já provou que sabe chamar atenção. Só te falta uma oferta simples que
-          filtra curiosos da internet de quem está pronto pra ser cliente.
-        </p>
+          Você já provou que sabe chamar atenção. Só te falta um meio de transformar audiência em faturamento recorrente.</p>
         <p>
           Eu chamo isso de <strong className="text-ink-900">Oferta Base.</strong>
         </p>
@@ -413,25 +411,10 @@ export default function HomePage() {
         </div>
         <div className="space-y-4 font-body text-[18px] leading-[1.85] text-ink-700 text-center sm:text-left">
           <p>
-            <strong className="text-ink-900">Felipe Pavão</strong> é consultor de
-            negócios especializado em ajudar experts, mentores e consultores a criar
-            receita previsível sem depender de lançamentos mensais ou produção
-            constante de conteúdo.
+            <strong className="text-ink-900">Felipe Pavão</strong> tem 8+ anos de bastidores do mercado digital e mais de R$10M em resultados gerados para clientes. Passou por todos os formatos — agência, copy, lançamentos, mentoria — até chegar numa conclusão simples: audiência sem oferta é hobby.
           </p>
           <p>
-            Passou mais de uma década dentro do mercado digital — de agência a
-            copywriting, de lançamentos a mentoria — até desenvolver um método próprio
-            centrado no que chama de CORE: a atividade que mais energiza, gera os
-            melhores resultados para clientes e permite cobrar os maiores preços.
-          </p>
-          <p>
-            Hoje atua nos bastidores de negócios de experts e empresas, ajudando a
-            simplificar operações, aumentar margem e liberar o dono para fazer o que
-            realmente importa.
-          </p>
-          <p>
-            É co-criador do movimento Contracorrente e trabalha com um número
-            intencional de clientes — poucos, bem atendidos, por muito tempo.
+            Hoje usa GPTs pra mudar isso. Cria Ofertas Base para criadores, experts e consultores que já têm audiência mas ainda não conseguem transformar isso em faturamento consistente. Sem complexidade. Sem lançamento mensal. Sem depender do algoritmo.
           </p>
         </div>
       </div>
