@@ -6,11 +6,11 @@
  */
 
 const entregaveis = [
-  { num: '01', label: 'GPT #1 — Estrategista de Oferta Base', url: '#gpt-01' },
-  { num: '02', label: 'GPT #2 — Escritor Persuasivo',         url: '#gpt-02' },
-  { num: '03', label: 'GPT #3 — Carta de Vendas',             url: '#gpt-03' },
-  { num: '04', label: 'GPT #4 — Gerador de Agentes GPT',      url: '#gpt-04' },
-  { num: '05', label: 'Playbook de Implementação',             url: '#playbook' },
+  { num: '01', label: 'Playbook de Implementação',             url: '#playbook' },
+  { num: '02', label: 'GPT #1 — Estrategista de Oferta Base', url: '#gpt-01' },
+  { num: '03', label: 'GPT #2 — Escritor Persuasivo',         url: '#gpt-02' },
+  { num: '04', label: 'GPT #3 — Carta de Vendas',             url: '#gpt-03' },
+  { num: '05', label: 'GPT #4 — Gerador de Agentes GPT',      url: '#gpt-04' },
 ]
 
 export default function OfertaBaseObrigadoPage() {
@@ -37,7 +37,7 @@ export default function OfertaBaseObrigadoPage() {
             Compra confirmada.
           </p>
           <p>Tudo que você precisa para criar sua Oferta Base está aqui embaixo.</p>
-          <p>Comece pelo GPT #1. Ele define a estratégia. Depois siga a ordem — cada GPT usa o que o anterior entregou. O Playbook mostra o passo a passo completo.</p>
+          <p>Comece pelo Playbook. Ele mostra o passo a passo completo. Depois siga a ordem dos GPTs — cada um usa o que o anterior entregou.</p>
         </div>
 
         <hr className="my-10 border-ink-200" />
