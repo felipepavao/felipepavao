@@ -52,7 +52,7 @@ function RadioGroup({ name, options, selected, onSelect, outroValue, onOutroChan
               <span className="h-2 w-2 rounded-full bg-ink-900" />
             )}
           </span>
-          <span className="font-sans text-[16px] md:text-[17px] leading-[1.7] text-ink-800">{label}</span>
+          <span className="font-body text-[18px] leading-[1.8] text-ink-800">{label}</span>
           <input
             type="radio"
             name={name}
@@ -224,7 +224,7 @@ export default function OfertaBasePesquisaPage() {
             {/* STEP 1 */}
             {step === 0 && (
               <div className="space-y-6">
-                <h2 className="font-sans text-xl md:text-2xl font-extrabold leading-[1.25] text-ink-900">
+                <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900">
                   O que melhor descreve sua situação agora?
                 </h2>
                 <RadioGroup
@@ -246,7 +246,7 @@ export default function OfertaBasePesquisaPage() {
             {/* STEP 2 */}
             {step === 1 && (
               <div className="space-y-6">
-                <h2 className="font-sans text-xl md:text-2xl font-extrabold leading-[1.25] text-ink-900">
+                <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900">
                   O que você quer resolver com a Oferta Base?
                 </h2>
                 <RadioGroup
@@ -269,7 +269,7 @@ export default function OfertaBasePesquisaPage() {
             {/* STEP 3 */}
             {step === 2 && (
               <div className="space-y-6">
-                <h2 className="font-sans text-xl md:text-2xl font-extrabold leading-[1.25] text-ink-900">
+                <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900">
                   O que trava suas vendas hoje?
                 </h2>
                 <RadioGroup
@@ -292,7 +292,7 @@ export default function OfertaBasePesquisaPage() {
             {/* STEP 4 — email + livre */}
             {step === 3 && (
               <div className="space-y-6">
-                <h2 className="font-sans text-xl md:text-2xl font-extrabold leading-[1.25] text-ink-900">
+                <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900">
                   Tem mais alguma coisa que queira compartilhar?
                 </h2>
 
