@@ -91,7 +91,7 @@ export default function HomePage() {
           Para quem já tem audiência e quer transformar em $$
         </p>
 
-        <h1 className="font-body text-[50px] font-normal leading-[1.2] text-ink-900 text-center">
+        <h1 className="font-body text-[32px] md:text-[50px] font-normal leading-[1.2] text-ink-900 text-center">
           "Em menos de 30 minutos você cria sua Oferta Base e passa a transformar audiência em $$ com GPTs"
         </h1>
 
@@ -141,7 +141,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── O PROBLEMA ── */}
-      <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
         O Problema
       </h2>
 
@@ -162,7 +162,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── DE ONDE SURGIU ── */}
-      <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
         De Onde Surgiu
       </h2>
 
@@ -175,7 +175,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── O QUE VOCÊ VAI RECEBER ── */}
-      <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
         O Que Você Vai Receber
       </h2>
 
@@ -223,7 +223,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── MEU COMBO VAI TE AJUDAR A ── */}
-      <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
         Meu Combo Vai Te Ajudar a:
       </h2>
 
@@ -248,7 +248,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── PARA QUEM É ── */}
-      <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
         Para Quem É
       </h2>
 
@@ -272,7 +272,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── O QUE MUDA ── */}
-      <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
         O Que Muda
       </h2>
 
@@ -300,7 +300,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── TUDO QUE VOCÊ VAI RECEBER + PRICING BOX ── */}
-      <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
         Tudo Que Você Vai Receber
       </h2>
 
@@ -324,7 +324,7 @@ export default function HomePage() {
           <p className="font-sans text-[10px] uppercase tracking-[0.2em] text-ink-500 mb-1">
             Preço de estreia
           </p>
-          <p className="font-body text-[76px] md:text-[92px] font-bold leading-none text-ink-50">
+          <p className="font-body text-[56px] md:text-[76px] lg:text-[92px] font-bold leading-none text-ink-50">
             R$ 47
           </p>
           <p className="font-sans text-[10px] uppercase tracking-[0.18em] text-ink-500 mt-3 mb-8">
@@ -351,7 +351,7 @@ export default function HomePage() {
       <hr className="my-8 sm:my-12 border-ink-200" />
 
       {/* ── POR QUE APENAS R$ 47? ── */}
-      <h2 className="font-body text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
         Por que apenas R$ 47?
       </h2>
 
