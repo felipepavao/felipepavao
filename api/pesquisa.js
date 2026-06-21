@@ -22,16 +22,15 @@ export default async function handler(req, res) {
 
   const { q1, q1_outro, q2, q2_outro, q3, q3_outro, email, q4 } = req.body
 
-  const situacao = q1 === 'outro' && q1_outro ? `outro: ${q1_outro}` : (q1 || '')
-  const objetivo = q2 === 'outro' && q2_outro ? `outro: ${q2_outro}` : (q2 || '')
-  const obstaculo = q3 === 'outro' && q3_outro ? `outro: ${q3_outro}` : (q3 || '')
-
   const fields = {
-    'Situação Atual': situacao,
-    'Objetivo':       objetivo,
-    'Obstáculo':      obstaculo,
-    'Email':          email || '',
-    'Mensagem':       q4    || '',
+    'Situação Atual':    q1       || '',
+    'Situação (outro)':  q1_outro || '',
+    'Objetivo':          q2       || '',
+    'Objetivo (outro)':  q2_outro || '',
+    'Obstáculo':         q3       || '',
+    'Obstáculo (outro)': q3_outro || '',
+    'Email':             email    || '',
+    'Mensagem':          q4       || '',
   }
 
   try {
