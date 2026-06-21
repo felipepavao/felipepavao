@@ -105,12 +105,9 @@ export default function HomePage() {
         <p>
           Você já provou que sabe chamar atenção. Só te falta um meio de transformar audiência em faturamento recorrente.</p>
         <p>
-          Eu chamo isso de <strong className="text-ink-900">Oferta Base.</strong>
+          Eu chamo isso de <strong className="text-ink-900">Oferta Base:</strong> uma oferta baseada em agentes GPT, onde seu cliente tem uma vitória rápida usando uma ferramenta real, não um PDF que ninguém abre ou um curso que fica pela metade.
         </p>
-        <p>
-          Quero te ajudar a criar a sua Oferta Base: uma oferta simples baseada em IA, onde seu cliente tem uma vitória rápida com uma ferramenta real, não um PDF que ninguém abre ou um curso que fica pela metade.
-        </p>
-        <p>Em menos de 30 minutos.</p>
+        <p>Usando meu combo de agentes você cria sua Oferta Base em menos de 30 minutos e já pdoe começar a transformar audiência em $$.</p>
       </div>
 
       <hr className="my-8 sm:my-12 border-ink-200" />

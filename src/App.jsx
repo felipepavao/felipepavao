@@ -2,6 +2,7 @@ import HomePage from './pages/HomePage'
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage'
 import TermsOfUsePage from './pages/TermsOfUsePage'
 import OfertaBaseObrigadoPage from './pages/OfertaBaseObrigadoPage'
+import OfertaBasePesquisaPage from './pages/OfertaBasePesquisaPage'
 
 export default function App() {
   const path = window.location.pathname
@@ -16,6 +17,10 @@ export default function App() {
 
   if (path === '/oferta-base-obrigado') {
     return <OfertaBaseObrigadoPage />
+  }
+
+  if (path === '/oferta-base-pesquisa') {
+    return <OfertaBasePesquisaPage />
   }
 
   return <HomePage />
