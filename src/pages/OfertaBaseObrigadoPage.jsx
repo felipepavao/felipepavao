@@ -32,7 +32,7 @@ export default function OfertaBaseObrigadoPage() {
       <main className="mx-auto max-w-[640px] px-5 pt-[52px] md:pt-[60px] pb-16 md:pb-24">
 
         {/* CONFIRMAÇÃO */}
-        <div className="space-y-5 font-sans text-[17px] md:text-[19px] leading-[1.9] text-ink-800">
+        <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
           <p className="text-center text-[22px] font-bold leading-[1.5] text-ink-900">
             Compra confirmada.
           </p>
@@ -43,7 +43,7 @@ export default function OfertaBaseObrigadoPage() {
         <hr className="my-10 border-ink-200" />
 
         {/* ENTREGÁVEIS */}
-        <h2 className="font-sans text-xl md:text-2xl font-extrabold leading-[1.2] text-ink-900 mb-6">
+        <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-6">
           Acesse seus materiais:
         </h2>
 
@@ -69,7 +69,7 @@ export default function OfertaBaseObrigadoPage() {
 
         {/* ASSINATURA */}
         <div className="space-y-1 pb-4">
-          <p className="font-sans italic text-xl text-ink-700">— Felipe Pavão</p>
+          <p className="font-body italic text-xl text-ink-700">— Felipe Pavão</p>
           <p className="font-sans text-[10px] uppercase tracking-[0.18em] text-ink-400">felipepavao.com</p>
         </div>
 
