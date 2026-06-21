@@ -6,7 +6,7 @@
  * Layout: max-w-[640px] centered column, white bg
  */
 
-const BUY_URL = '#comprar' // trocar pela URL real da plataforma
+const BUY_URL = 'https://pay.kiwify.com.br/kh1DUYC'
 const PRICE_VALUE = 97
 
 function createMetaEventId() {
