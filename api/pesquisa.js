@@ -13,7 +13,9 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' })
   }
 
-  const { AIRTABLE_API_KEY, AIRTABLE_BASE_ID, AIRTABLE_TABLE } = process.env
+  const AIRTABLE_API_KEY = (process.env.AIRTABLE_API_KEY || '').trim()
+  const AIRTABLE_BASE_ID = (process.env.AIRTABLE_BASE_ID || '').trim()
+  const AIRTABLE_TABLE   = (process.env.AIRTABLE_TABLE   || '').trim()
 
   if (!AIRTABLE_API_KEY || !AIRTABLE_BASE_ID || !AIRTABLE_TABLE) {
     console.error('Airtable env vars not set')
