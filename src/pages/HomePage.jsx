@@ -109,10 +109,7 @@ export default function HomePage() {
           GPT é um assistente criado dentro do ChatGPT — a IA com mais de 100 milhões de usuários que sua audiência provavelmente já usa. Você cria uma vez. Seu cliente abre no ChatGPT, responde algumas perguntas e sai com resultado na mão.
         </p>
         <p>
-          Você só precisa de uma conta no ChatGPT para seguir o processo.
-        </p>
-        <p>
-          Diferente de PDF que ninguém abre ou curso que fica pela metade.
+          Você só precisa de uma conta no ChatGPT para seguir o processo. A diferença é que seu cliente não recebe um PDF para baixar e esquecer, nem um curso para abandonar pela metade. Ele recebe uma ferramenta que usa dentro do ChatGPT e que entrega um resultado na hora.
         </p>
         <p>
           Esse tipo de produto — simples, que funciona no mesmo dia e entrega resultado real — eu chamo de <strong className="text-ink-900">Oferta Base.</strong>
