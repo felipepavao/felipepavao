@@ -112,7 +112,7 @@ export default function HomePage() {
           Diferente de PDF que ninguém abre ou curso que fica pela metade.
         </p>
         <p>
-          Eu chamo isso de <strong className="text-ink-900">Oferta Base.</strong>
+          Esse tipo de produto — simples, que funciona no mesmo dia e entrega resultado real — eu chamo de <strong className="text-ink-900">Oferta Base.</strong>
         </p>
       </div>
 
@@ -180,7 +180,7 @@ export default function HomePage() {
           ['GPT #3 — Carta de Vendas', 'entrega a página de vendas sem precisar de designer ou copywriter — pronto pra colocar no Notion ou Google Docs;'],
           ['GPT #4 — Gerador de Agentes GPT', 'a partir da estratégia definida no GPT #1, ele cria o prompt do GPT que você vai entregar como Oferta Base para seus clientes;'],
           ['Playbook de Implementação', 'o passo a passo de como usar os 4 GPTs e colocar sua Oferta Base no ar hoje.'],
-          ['Bônus — Revisão da Campanha por Vídeo', 'você monta sua campanha com os GPTs, junta tudo num Google Doc e me manda no WhatsApp. Em até 48 horas você recebe minha revisão em vídeo — o que está bom, o que ajustar, o que pode estar deixando dinheiro na mesa. Gratis para os primeiros 50 compradores (valor: R$ 297).'],
+          ['Bônus — Revisão da Campanha por Vídeo', 'você monta sua campanha com os GPTs, junta tudo num Google Doc e me manda no WhatsApp. Em até 48 horas você recebe minha revisão em vídeo — o que está bom, o que ajustar, o que pode estar deixando dinheiro na mesa. Grátis para os primeiros 50 compradores (valor: R$ 297).'],
         ].map(([title, desc]) => (
           <li key={title} className="flex items-start gap-3">
             <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
@@ -229,7 +229,7 @@ export default function HomePage() {
         <p>
           Quem tira mais proveito disso entende que{' '}
           <strong className="text-ink-900">audiência sem oferta é hobby</strong>. E
-          prefere consertar isso agora do que no próximo trimestre.
+          prefere consertar isso agora do que esperar mais três meses.
         </p>
       </div>
 
@@ -332,6 +332,9 @@ export default function HomePage() {
           R$ 97 é o preço justo para demonstrar o método sem pedir que você aposte
           alto antes de ver funcionar.
         </p>
+        <p>
+          Pra quem está entre os primeiros 50: a revisão em vídeo entra de graça. São R$ 394 em entregáveis por R$ 97.
+        </p>
       </div>
 
       <div className="mt-10">
@@ -353,8 +356,7 @@ export default function HomePage() {
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800 rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8">
         <p>
           <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
-          final: a Oferta Base é o que separa quem realmente quer comprar de quem só quer conteúdo grátis. Um combo de GPTs que define sua Oferta Base dentro do ChatGPT, cria as ferramentas que você vai entregar para seus clientes, escreve a campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa apenas
-          R$ 97. Se não gostar, devolvo tudo e você fica com o material.{' '}
+          final: a Oferta Base é o que separa quem realmente quer comprar de quem só quer conteúdo grátis. Um combo de GPTs que define sua Oferta Base dentro do ChatGPT, escreve sua campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa R$ 97. Se você for um dos primeiros 50 compradores, ainda leva de graça minha revisão em vídeo da sua campanha — valor de R$ 297. Se não gostar, devolvo tudo e você fica com o material.{' '}
           <a href={BUY_URL} onClick={trackInitiateCheckout} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
           </a>
