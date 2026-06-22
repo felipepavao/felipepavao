@@ -257,9 +257,7 @@ export default function HomePage() {
 
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
-          Experts, consultores e mentores que já têm audiência, já têm resultados
-          para mostrar, mas ainda dependem de um novo lançamento a cada mês para
-          gerar caixa.
+          Para criadores, experts, consultores e mentores que já têm audiência e já têm resultados para mostrar — mas ainda não encontraram uma forma simples de transformar isso em faturamento consistente. Seja porque dependem de lançamento mensal, seja porque nunca criaram uma oferta de entrada que filtre quem realmente quer comprar.
         </p>
         <p>
           Não é para quem está construindo audiência do zero ou procura mais uma
