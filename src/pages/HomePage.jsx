@@ -158,7 +158,7 @@ export default function HomePage() {
           sensação de que precisa postar ainda mais para "um dia" vender.
         </p>
         <p>
-          Nesse ciclo, sobra zero tempo para servir os clientes que realmente importam.
+          Nesse ciclo, a audiência cresce mas o faturamento não.
         </p>
       </div>
 
@@ -225,32 +225,7 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
-      {/* ── MEU COMBO VAI TE AJUDAR A ── */}
-      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
-        Meu Combo Vai Te Ajudar a:
-      </h2>
-
-      <ul className="space-y-6">
-        {[
-          ['Oferta definida em uma sessão', 'estrutura, GPTs necessários e vitória rápida do seu cliente. O GPT faz as perguntas estratégicas, você responde, ele entrega o plano;'],
-          ['Sequência de e-mails/posts escrita', 'pronta para publicar;'],
-          ['Carta de vendas no ar', 'sem página cara, sem design complexo;'],
-          ['Lista segmentada', 'a Oferta Base separa curiosos de compradores;'],
-          ['Tempo de volta', 'menos energia nutrindo seguidores, mais atenção para quem já pagou;'],
-          ['Escada aberta', 'quem compra a Oferta Base chega nas suas ofertas maiores com menos fricção.'],
-        ].map(([title, desc]) => (
-          <li key={title} className="flex items-start gap-3">
-            <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
-            <span className="font-body text-[18px] leading-[1.85] text-ink-800">
-              <strong className="text-ink-900">{title}:</strong> {desc}
-            </span>
-          </li>
-        ))}
-      </ul>
-
-      <hr className="my-8 sm:my-12 border-ink-200" />
-
-      {/* ── PARA QUEM É ── */}
+      {/* ── PARA QUEM É ── */
       <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
         Para Quem É
       </h2>
@@ -389,8 +364,7 @@ export default function HomePage() {
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800 rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8">
         <p>
           <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
-          final: a Oferta Base é a minha solução para que você filtre clientes de
-          curiosos. Um combo de GPTs que define sua Oferta Base em IA, cria as ferramentas que você vai entregar para seus clientes, escreve a campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa apenas
+          final: a Oferta Base é o que separa quem realmente quer comprar de quem só quer conteúdo grátis. Um combo de GPTs que define sua Oferta Base em IA, cria as ferramentas que você vai entregar para seus clientes, escreve a campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa apenas
           R$ 97. Se não gostar, devolvo tudo e você fica com o material.{' '}
           <a href={BUY_URL} onClick={trackInitiateCheckout} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
