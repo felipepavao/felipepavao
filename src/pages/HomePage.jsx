@@ -164,6 +164,23 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
+      {/* ── A SOLUÇÃO ── */}
+      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
+        A Solução
+      </h2>
+
+      <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
+        <p>Não é postar mais.</p>
+        <p>Também não é criar um curso novo, montar um funil gigante ou passar semanas gravando aulas antes de saber se alguém quer comprar.</p>
+        <p>A solução é ter uma oferta pequena, clara e útil o bastante para alguém comprar com pouca fricção.</p>
+        <p>Uma primeira compra.</p>
+        <p>Um primeiro sim.</p>
+        <p>Algo que transforma parte da sua audiência em compradores reais.</p>
+        <p>Essa é a função da <strong className="text-ink-900">Oferta Base.</strong></p>
+      </div>
+
+      <hr className="my-8 sm:my-12 border-ink-200" />
+
       {/* ── O QUE VOCÊ VAI RECEBER ── */}
       <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
         O Que Você Vai Receber
