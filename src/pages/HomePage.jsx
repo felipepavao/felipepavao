@@ -164,7 +164,7 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
-      {/* ── O QUE VOCÊ VAI RECEBER ── */
+      {/* ── O QUE VOCÊ VAI RECEBER ── */}
       <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
         O Que Você Vai Receber
       </h2>
@@ -213,7 +213,7 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
-      {/* ── PARA QUEM É ── */
+      {/* ── PARA QUEM É ── */}
       <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
         Para Quem É
       </h2>
