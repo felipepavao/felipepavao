@@ -192,7 +192,7 @@ export default function HomePage() {
           ['GPT #2 — Escritor Persuasivo', 'gera emails e posts no seu tom, prontos para enviar;'],
           ['GPT #3 — Carta de Vendas', 'entrega a página de vendas sem precisar de designer ou copywriter — pronto pra colocar no Notion ou Google Docs;'],
           ['GPT #4 — Gerador de Agentes GPT', 'a partir da estratégia definida no GPT #1, ele cria o prompt do GPT que você vai entregar como Oferta Base para seus clientes;'],
-          ['Playbook de Implementação', 'como conectar tudo à sua operação em menos de 30 minutos.'],
+          ['Playbook de Implementação', 'o passo a passo de como usar os 4 GPTs e colocar sua Oferta Base no ar hoje.'],
         ].map(([title, desc]) => (
           <li key={title} className="flex items-start gap-3">
             <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
