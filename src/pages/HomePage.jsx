@@ -103,11 +103,17 @@ export default function HomePage() {
       {/* ── ABERTURA ── */}
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800">
         <p>
-          Você já provou que sabe chamar atenção. Só te falta um meio de transformar audiência em faturamento recorrente.</p>
-        <p>
-          Eu chamo isso de <strong className="text-ink-900">Oferta Base:</strong> uma oferta baseada em agentes GPT, onde seu cliente tem uma vitória rápida usando uma ferramenta real, não um PDF que ninguém abre ou um curso que fica pela metade.
+          Você já provou que sabe chamar atenção. Só te falta uma oferta simples que transforma essa audiência em $$ com GPTs.
         </p>
-        <p>Usando meu combo de agentes você cria sua Oferta Base em menos de 30 minutos e já pdoe começar a transformar audiência em $$.</p>
+        <p>
+          GPT é um assistente criado dentro do ChatGPT — a IA com mais de 100 milhões de usuários que sua audiência provavelmente já usa. Você cria uma vez. Seu cliente abre no ChatGPT, responde algumas perguntas e sai com resultado na mão.
+        </p>
+        <p>
+          Diferente de PDF que ninguém abre ou curso que fica pela metade.
+        </p>
+        <p>
+          Eu chamo isso de <strong className="text-ink-900">Oferta Base.</strong>
+        </p>
       </div>
 
       <hr className="my-8 sm:my-12 border-ink-200" />
