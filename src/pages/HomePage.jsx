@@ -180,6 +180,7 @@ export default function HomePage() {
           ['GPT #3 — Carta de Vendas', 'entrega a página de vendas sem precisar de designer ou copywriter — pronto pra colocar no Notion ou Google Docs;'],
           ['GPT #4 — Gerador de Agentes GPT', 'a partir da estratégia definida no GPT #1, ele cria o prompt do GPT que você vai entregar como Oferta Base para seus clientes;'],
           ['Playbook de Implementação', 'o passo a passo de como usar os 4 GPTs e colocar sua Oferta Base no ar hoje.'],
+          ['Bônus — Revisão da Campanha por Vídeo', 'você monta sua campanha com os GPTs, junta tudo num Google Doc e me manda no WhatsApp. Em até 48 horas você recebe minha revisão em vídeo — o que está bom, o que ajustar, o que pode estar deixando dinheiro na mesa. Gratis para os primeiros 50 compradores (valor: R$ 297).'],
         ].map(([title, desc]) => (
           <li key={title} className="flex items-start gap-3">
             <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
@@ -275,6 +276,7 @@ export default function HomePage() {
             'GPT Carta de Vendas',
             'GPT Gerador de Agentes GPT',
             'Playbook de Implementação',
+            'Bônus — Revisão da Campanha por Vídeo (primeiros 50)',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.7] text-ink-200">
               <span className="mt-[3px] shrink-0 font-sans font-bold text-brand-400">✓</span>
