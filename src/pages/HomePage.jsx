@@ -127,7 +127,7 @@ export default function HomePage() {
           {[
             'Publica conteúdo com consistência, mas as vendas não acompanham.',
             'Sua inbox vive cheia de curiosos pedindo dica gratuita.',
-            'Já tentou lives e pequenos lançamentos, atraiu likes e ficou sem fôlego para atender quem realmente importa.',
+            'Já tentou lives e pequenos lançamentos, atraiu likes e a audiência continua crescendo sem comprar nada.',
             'Quer monetizar sua galera sem criar um novo produto do zero.',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.8] text-ink-800">
@@ -164,20 +164,7 @@ export default function HomePage() {
 
       <hr className="my-8 sm:my-12 border-ink-200" />
 
-      {/* ── DE ONDE SURGIU ── */}
-      <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-7 text-center">
-        De Onde Surgiu
-      </h2>
-
-      <blockquote className="border-l-2 border-brand-600 pl-5 font-body text-[18px] font-semibold leading-[1.85] text-ink-900">
-        Ajudei um cliente a lançar uma Oferta Base para a lista que já tinha. Sem
-        anúncios, sem novo produto. Ela foi o pontapé pra fechar mentorias de 7k com
-        quem já o acompanhava há meses sem comprar nada.
-      </blockquote>
-
-      <hr className="my-8 sm:my-12 border-ink-200" />
-
-      {/* ── O QUE VOCÊ VAI RECEBER ── */}
+      {/* ── O QUE VOCÊ VAI RECEBER ── */
       <h2 className="font-body text-[26px] md:text-[36px] font-bold leading-tight text-ink-900 mb-8 text-center">
         O Que Você Vai Receber
       </h2>
@@ -210,10 +197,10 @@ export default function HomePage() {
         </p>
         <ul className="space-y-3">
           {[
-            'Um curso longo com módulos que ficam pela metade;',
-            'Um funil caro que depende de anúncio para funcionar;',
-            'Nem template genérico que serve para qualquer nicho.',
-            'Uma oferta em PDF ou planilha que o cliente baixa e esquece.',
+            'Curso longo com módulos que ficam pela metade',
+            'Funil caro que depende de anúncio para funcionar',
+            'Template genérico que serve para qualquer nicho',
+            'Oferta em PDF ou planilha que o cliente baixa e esquece',
           ].map((item) => (
             <li key={item} className="flex items-start gap-3 font-body text-[18px] leading-[1.8] text-ink-700">
               <span className="mt-1 shrink-0 font-sans text-sm font-semibold text-ink-400">✕</span>
@@ -364,7 +351,7 @@ export default function HomePage() {
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800 rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8">
         <p>
           <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
-          final: a Oferta Base é o que separa quem realmente quer comprar de quem só quer conteúdo grátis. Um combo de GPTs que define sua Oferta Base em IA, cria as ferramentas que você vai entregar para seus clientes, escreve a campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa apenas
+          final: a Oferta Base é o que separa quem realmente quer comprar de quem só quer conteúdo grátis. Um combo de GPTs que define sua Oferta Base dentro do ChatGPT, cria as ferramentas que você vai entregar para seus clientes, escreve a campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa apenas
           R$ 97. Se não gostar, devolvo tudo e você fica com o material.{' '}
           <a href={BUY_URL} onClick={trackInitiateCheckout} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
