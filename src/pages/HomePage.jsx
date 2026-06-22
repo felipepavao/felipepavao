@@ -372,8 +372,21 @@ export default function HomePage() {
       {/* ── P.S. ── */}
       <div className="space-y-5 font-body text-[18px] leading-[1.9] text-ink-800 rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8">
         <p>
-          <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o
-          final: a Oferta Base é o que separa quem realmente quer comprar de quem só quer conteúdo grátis. Um combo de GPTs que define sua Oferta Base dentro do ChatGPT, escreve sua campanha de vendas e coloca tudo no ar em menos de 30 minutos. Custa R$ 97. Se você for um dos primeiros 50 compradores, ainda leva de graça minha revisão em vídeo da sua campanha — valor de R$ 297. Se não gostar, devolvo tudo e você fica com o material.{' '}
+          <strong className="text-ink-900">P.S.</strong> Se você pulou direto para o final: a Oferta Base é o que separa quem realmente quer comprar de quem só quer conteúdo grátis.
+        </p>
+        <p>
+          Você recebe um combo de GPTs que define sua oferta dentro do ChatGPT, escreve sua campanha de vendas e coloca tudo no ar em menos de 30 minutos.
+        </p>
+        <p>
+          Custa R$ 97.
+        </p>
+        <p>
+          Se você for um dos primeiros 50 compradores, ainda leva de graça minha revisão em vídeo da sua campanha. Valor de R$ 297.
+        </p>
+        <p>
+          E se não gostar, devolvo tudo e você fica com o material.
+        </p>
+        <p>
           <a href={BUY_URL} onClick={trackInitiateCheckout} className="text-brand-700 underline underline-offset-2 hover:text-brand-600 transition-colors">
             Clique aqui e comece hoje.
           </a>
