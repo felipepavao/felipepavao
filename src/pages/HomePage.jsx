@@ -279,14 +279,14 @@ export default function HomePage() {
 
       <div className="rounded-lg border border-ink-200 bg-gray-50 p-6 md:p-8 space-y-5">
         <p className="font-body text-[18px] font-semibold leading-[1.9] text-ink-900">
-          Quando você implementa a Oferta Base e deixa a automação rodar:
+          Quando você implementa a Oferta Base:
         </p>
         <ul className="space-y-4 pl-1">
           {[
-            ['Sua lista começa a trabalhar por você', 'cada novo leitor entra numa sequência que apresenta a oferta sem precisar que você esteja online;'],
-            ['Você identifica compradores reais', 'quem clica e compra sinaliza que está pronto para subir na escada;'],
-            ['Você para de criar conteúdo para vender', 'o conteúdo continua, mas a venda acontece pelo sistema, não pelo post do dia;'],
-            ['Suas ofertas maiores fecham mais fácil', 'quem já pagou alguma coisa tem menos resistência para pagar tickets como 1k, 2k e até 10k.'],
+            ['Você sai com uma oferta definida', 'estrutura, preço, entregável e vitória rápida do cliente. Nada em aberto.'],
+            ['Você sai com a campanha escrita', 'emails e posts prontos pra enviar, no seu tom, sem copywriter.'],
+            ['Você sai com a carta de vendas no ar', 'sem designer, sem agência, sem semanas esperando.'],
+            ['Você pode começar a vender no mesmo dia', 'não amanhã, não quando tiver tudo perfeito. Hoje.'],
           ].map(([title, desc]) => (
             <li key={title} className="flex items-start gap-3 font-body text-[18px] leading-[1.85] text-ink-800">
               <span className="mt-[11px] h-1.5 w-1.5 shrink-0 rounded-full bg-ink-600" />
