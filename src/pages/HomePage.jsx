@@ -361,7 +361,7 @@ export default function HomePage() {
           Porque prefiro que você implemente antes de qualquer decisão maior.
         </p>
         <p>
-          Quem aplica e vê resultado tende a querer avançar para a consultoria. Quem
+          Quem aplica e vê resultado tende a querer continuar o trabalho comigo. Quem
           não aplica, tudo bem também.
         </p>
         <p>
