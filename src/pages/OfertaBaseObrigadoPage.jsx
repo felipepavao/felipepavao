@@ -72,7 +72,8 @@ export default function OfertaBaseObrigadoPage() {
           <p className="font-sans text-[13px] uppercase tracking-[0.18em] text-ink-500">Bônus — Primeiros 50 Compradores</p>
           <p className="font-body text-[18px] font-semibold leading-[1.85] text-ink-900">Revisão da Campanha por Vídeo</p>
           <div className="space-y-3 font-body text-[18px] leading-[1.9] text-ink-700">
-            <p>Você montôu sua campanha com os GPTs. Agora é só me mandar pra eu revisar antes de enviar pra sua audiência.</p>
+            <p>Você montou sua campanha com os GPTs. Agora é só me mandar pra eu revisar antes de enviar pra sua audiência.</p>
+            <p>É uma revisão por comprador, pra manter o processo rápido e bem feito.</p>
             <p>Como funciona:</p>
             <ol className="space-y-2 pl-1">
               {[
