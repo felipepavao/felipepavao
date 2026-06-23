@@ -106,7 +106,10 @@ export default function HomePage() {
           Você já provou que sabe chamar atenção. Só te falta uma oferta simples que transforma essa audiência em $$ com GPTs.
         </p>
         <p>
-          GPT é um assistente criado dentro do ChatGPT — a IA com mais de 100 milhões de usuários que sua audiência provavelmente já usa. Você cria uma vez. Seu cliente abre no ChatGPT, responde algumas perguntas e sai com resultado na mão.
+          Seu cliente entra no ChatGPT — que ele já usa — abre o GPT que você criou, responde algumas perguntas e sai com o resultado na mão. Sem precisar de você ao vivo. Sem agendar call. Sem esperar. É o seu conhecimento trabalhando enquanto você não está lá.
+        </p>
+        <p>
+          É a primeira vitória do cliente com você. E primeira vitória vira confiança. Confiança vira a próxima compra.
         </p>
         <p>
           Você só precisa de uma conta no ChatGPT para seguir o processo. A diferença é que seu cliente não recebe um PDF para baixar e esquecer, nem um curso para abandonar pela metade. Ele recebe uma ferramenta que usa dentro do ChatGPT e que entrega um resultado na hora.
