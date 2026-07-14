@@ -6,7 +6,17 @@
       "permanent": false
     },
     {
+      "source": "/ck/",
+      "destination": "https://partners.convertkit.com/vg3dreaze7yw?utm_campaign=poweredby&utm_content=form",
+      "permanent": false
+    },
+    {
       "source": "/kit",
+      "destination": "https://partners.convertkit.com/vg3dreaze7yw?utm_campaign=poweredby&utm_content=form",
+      "permanent": false
+    },
+    {
+      "source": "/kit/",
       "destination": "https://partners.convertkit.com/vg3dreaze7yw?utm_campaign=poweredby&utm_content=form",
       "permanent": false
     }
